@@ -8,59 +8,84 @@
 	<!---TESTING 123--->
 	<title> Allison's Gallery </title>
 	<style>
-		    nav {
-    
-    background-color: #EDEE8B;
+		      nav {
+    Background-color: #83FBAB;
     box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.2);
-    padding-bottom: 10%;
     z-index:1;
     display: flex;
     justify-content: space-between;x
     padding-right: 1rem;
     position: static;
     width: 100%;
-}
+    padding-bottom: 2%;}
     
 .nav-btn-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
+    justify-content: space-around;}
+    
 /*css for navigation*/
 .nav-btn {
     padding: 5px 1rem;
     text-decoration: none;
-    color: black;
+    color: #701C7D;
     font-weight: bold;
+    font-family: verdana;
     font-size: 1rem;
-    white-space: nowrap;
-}
+    white-space: nowrap;}
+    
 /*Hover effects for pages links*/
 .nav-btn:hover, .nav-btn:focus {
-    background-color: White;
-}
+    background-color: White;}
+    
+h1, h2,h3,h4 { color: #701C7D; 
+              font-family: verdana; } 
+              
+h1,h2 {text-align: center;}
+h2 {  font-size: 28px;}
+h3 {  font-size: 25px;}
+h4 {  font-size: 20px;}
+body { background-color: #EDEE8B;}
+
+p, ul { color: Black; 
+	font-size: 18px;
+    font-family: verdana;}
            		     	    
-		Header { border-style: solid;
-    			background-color: #EDEE8B;
-			color: #701C7D;
-	    		width: 100%;
-	    		height: 80px;
-        		text-align: center;}
+header { Background-color: #83FBAB;
+                                width: 100%;
+                                height: 55px;
+                                text-align: center;}
   		body { background-color: #EDEE8B; }
-  		#gallery {
+#gallery {
  		 	margin: 5px;
   			border: 1px solid;
   			float: left;}
 
-		#gallery:hover {
+#gallery:hover {
   			border: 1px solid;}
 
-		#gallery img {
+#gallery img {
   			width: 100%;}
 
-		#desc {
+#desc {
   			padding: 15px;
-  			text-align: center;}
+  			text-align: center;
+            font-family: verdana;}
+   .row:after {
+               content: "";
+               display: table;
+               clear: both;}
+      
+footer {clear: both;
+        Border-style: solid;
+        height: 90px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 5%;
+        Background-color: #83FBAB;}
+                
+ #foot {color:#701C7D}
+#footpar {text-align: center;}
 	</style>
 </head>
 	<!---Header, border, text color and background color designed to match INDEX.HTML page --> 
@@ -152,6 +177,14 @@
 		<img src= "https://lh3.googleusercontent.com/TutpNJEh13esJUQ898bJ2uFAGYVfKSGJwZS-p-mYxNGc1DwBJP3BJQeZa9Fyrnntx8fCMufeODFjyyTdSGR9ObOYX1S9dlncqFyV8Nh6O4GVdtvh-iD-sjVVes64jFVFY-IikHIOww=w2400"  alt="RaysCaiman" width="170" height="250">
 	<div id="desc">A baby dwarf caiman from Little Rays Nature Centre</div>
 	</div>
-
+<div id="foot">
+ 
+        <footer id="foot">
+          <!-- added a footer section for contact-->
+          <!--- Source:  HTML  <footer> tag. HTML footer Tag (w3schools.com) -->
+          <h2>Contact Information</h2>
+          <p id="footpar">Email: allison.talsma@flemingcollege.ca</p>
+        </footer>
+        </div>
 </body>
 </html>
