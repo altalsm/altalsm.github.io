@@ -4,6 +4,37 @@
 	<!---TESTING 123--->
 	<title> Allison's Gallery </title>
 	<style>
+		    nav {
+    border-bottom: 2px solid mintcream;
+    background-color: rgb(PapayaWhip);
+    box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.2);
+    padding-bottom: 10%;
+    z-index:1;
+    display: flex;
+    justify-content: space-between;x
+    padding-right: 1rem;
+    position: static;
+    width: 100%;
+}
+    
+.nav-btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*css for navigation*/
+.nav-btn {
+    padding: 5px 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+/*Hover effects for pages links*/
+.nav-btn:hover, .nav-btn:focus {
+    background-color: gray;
+}
            		     	    
 		Header { border-style: solid;
     			background-color: rgb(232, 206, 219);
@@ -30,6 +61,12 @@
 </head>
 	<!---Header, border, text color and background color designed to match INDEX.HTML page --> 
 <body> 
+	   <nav>
+          <div class="nav-btn-container">
+          <a href="index.html" class="nav-btn">Gallery</a>
+	        </div>
+      </nav>
+   
   <header> 
     <h1> Gallery </h1>
   </header>
